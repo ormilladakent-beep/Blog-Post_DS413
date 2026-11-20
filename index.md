@@ -1,4 +1,4 @@
-## "When to Stop: Early Stopping and the Cost of One More Epoch"
+# When to Stop: Early Stopping and the Cost of One More Epoch
 *By Kent Ormillada*
 
 ## The question
