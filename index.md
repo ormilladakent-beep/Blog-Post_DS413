@@ -55,7 +55,7 @@ trainer = pl.Trainer(max_epochs=20, callbacks=[early_stop, ckpt])
 
 ## Results
 
-*\[(/assets/images/fig1_loss_curves_patience.png)]*
+*\![Figure 1: training and validation loss for each patience value](/assets/images/fig1_loss_curves_patience.png)*
 
 **Figure 1.** Training and validation loss per epoch for each patience value. The green dashed line marks the epoch with the lowest validation loss; the red dotted line marks where training stopped.
 
@@ -71,7 +71,7 @@ Figure 1 shows that patience 1 stopped at epoch 6, before validation loss reache
 
 Table 1 shows that patience 3 and 5 reached the same best validation loss (0.2454), while patience 1 stopped at 0.2630.
 
-*\[(/assets/images/fig2_best_vs_final_val_loss.png)]*
+*\![Figure 2: best vs. final validation loss](/assets/images/fig2_best_vs_final_val_loss.png)*
 
 **Figure 2.** Best validation loss compared with validation loss at the moment each run stopped. The vertical axis is zoomed to 0.20 to 0.30 so the differences are visible.
 
