@@ -1,3 +1,3 @@
 theme: minima
-title: My Deep Learning Portfolio
-date: 2026-11-20
+header_pages:
+  - nothing.md
