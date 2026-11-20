@@ -1,6 +1,7 @@
 # When to Stop: Early Stopping and the Cost of One More Epoch
 *By Kent Ormillada*
-*The question*
+
+# *The question*
 
 Every time you train a neural network, you make a quiet decision: when do you stop? Stop too early and the model hasn't learned enough. Stop too late and it starts memorising its training images instead of learning patterns that carry over to new ones.
 
